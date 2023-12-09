@@ -94,8 +94,9 @@ Crea un oggetto Javascript che ti rappresenti (come proprietà usa nome, età e 
 
 let mySelf = {
     name: 'Vanessa',
-    age: 28,
-    hobby: 'Atleta e istruttrice di Jiu Jitsu Brasiliano',
+    surname: 'Pisati',
+    age: '28',
+    hobby: 'Atleta e istruttrice di Jiu Jitsu Brasiliano'
 }
 
 /* ESERCIZIO 8
