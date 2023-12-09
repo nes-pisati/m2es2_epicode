@@ -58,13 +58,8 @@ let movie = {
 console.log(movie);
 
 /* ESERCIZIO 3
- Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
+ Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20 e salvando il risultato in una variabile.
 */
-
-let Somma = 12 + 20;
-console.log(Somma)
-
-//oppure
 
 let varUno = 12;
 let varDue = 20;
@@ -94,7 +89,16 @@ console.log(name);
 let varSottrazione = 4-x;
 console.log(varSottrazione);
 
-/* ESERCIZIO 7
+/*ESERCIZIO 7 
+Crea un oggetto Javascript che ti rappresenti (come proprietà usa nome, età e hobby)*/
+
+let mySelf = {
+    name: 'Vanessa',
+    age: 28,
+    hobby: 'Atleta e istruttrice di Jiu Jitsu Brasiliano',
+}
+
+/* ESERCIZIO 8
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
  Infine, verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
@@ -111,3 +115,5 @@ console.log(verificaUno);
 //Verifica Due 
 let verificaDue = (nameOne == nameTwo.toLowerCase())
 console.log(verificaDue);
+
+
